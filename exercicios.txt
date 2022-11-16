@@ -1,0 +1,25 @@
+Console.WriteLine();
+        Console.WriteLine("Informe o primeiro número:");
+        int numero1 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Informe o segundo número:");
+        int numero2 = Convert.ToInt32(Console.ReadLine());
+        int soma = numero1 + numero2;
+        Console.WriteLine(soma);
+
+        double media = 0.0;
+        double nota = 0;
+        Console.WriteLine("Informe a primeira nota:");
+        nota = Convert.ToDouble(Console.ReadLine());
+        media += nota;
+        Console.WriteLine("Informe a segunda nota:");
+        nota = Convert.ToDouble(Console.ReadLine());
+        media += nota;
+        Console.WriteLine("Informe a terceira nota:");
+        nota = Convert.ToDouble(Console.ReadLine());
+        media += nota;
+        Console.WriteLine("Informe a quarta nota:");
+        nota = Convert.ToDouble(Console.ReadLine());
+        media += nota;
+        media = media / 4;
+        string mensagem = "A média foi: "+media;
+        Console.WriteLine(mensagem);

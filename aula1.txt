@@ -1,0 +1,29 @@
+//Meu primeiro código
+/*
+dsds
+*/
+int idade1 = 18;
+      int idade2 = 34;
+      string mensagem = "";
+      
+      if (idade1 > idade2){ 
+        mensagem = "Idade 1 é maior que idade 2"; 
+      }
+      else{
+        mensagem = "Idade 2 é maior que idade 1";  
+      }
+
+      Console.WriteLine (mensagem);
+    
+      string nome;
+      int idade;
+      double altura;
+      bool maior_18;
+  
+      nome = "Elisrenan";
+      idade = 27;
+      altura = 1.8;
+      maior_18 = idade > 18;
+
+      mensagem = "Nome: "+nome+" Idade: "+idade+ " Altura: "+altura+" É de maior? "+maior_18;
+      Console.WriteLine (mensagem);
